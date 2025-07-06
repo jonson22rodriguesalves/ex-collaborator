@@ -11,7 +11,7 @@ public class ProfileCollaborator {
 
     static {
         // Inicializa com os usuários de exemplo
-        usuariosExemplo.add(new Gerente("Jonson", "admin@gmail.com", "admin123"));
+        usuariosExemplo.add(new Gerente("Jonson", "admin@empresa.com", "admin123"));
         usuariosExemplo.add(new Vendedor("profile.Vendedor Souza", "vendedor@empresa.com", "vendedor123"));
         usuariosExemplo.add(new Atendente("profile.Atendente Costa", "atendente@empresa.com", "atendente123"));
     }

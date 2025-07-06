@@ -24,7 +24,7 @@
 
 * 🚀 Como Executar
  
-* 1. Compile o programa:
+1. Compile o programa:
 * bash
 * javac -d bin dao/Collaborator.java profile/Atendente.java profile/Usuario.java profile/Gerente.java profile/Vendedor.java profile/ProfileCollaborator.java Main.java
 * Execute o programa:
@@ -35,8 +35,8 @@
  
  
 * === COLLABORATOR PROFILE ===
-* 1. Login
-* 2. Sair do Sistema
+1. Login
+2. Sair do Sistema
 * Escolha uma opção:
  
 * 3. 🎯 Funcionalidades Implementadas
@@ -53,8 +53,8 @@
 * 📝 Exemplo de Uso
  
 * === COLLABORATOR PROFILE ===
-* 1. Login
-* 2. Sair do Sistema
+1. Login
+2. Sair do Sistema
 * Escolha uma opção: 1
  
 * Email: admin@gmail.com
@@ -63,17 +63,17 @@
 * Gerente Jonson realizou login
  
 * === MENU DO USUÁRIO ===
-* 1. Alterar dados
-* 2. Alterar senha
-* 3. Gerar relatório financeiro
-* 4. Consultar vendas
-* 5. Voltar ao menu principal
+1. Alterar dados
+2. Alterar senha
+3. Gerar relatório financeiro
+4. Consultar vendas
+5. Voltar ao menu principal
 * Escolha uma opção: 3
 * Relatório financeiro gerado por Jonson
  
 * ⚠️ Importante
 * O sistema vem com usuários de exemplo pré-cadastrados:
-* Gerente: admin@gmail.com / admin123
+* Gerente: admin@empresa.com / admin123
 * Vendedor: vendedor@empresa.com / vendedor123
 * Atendente: atendente@empresa.com / atendente123
 * Apenas gerentes podem cadastrar novos usuários
