@@ -23,22 +23,22 @@
 * Terminal/Console para execução
 
 * 🚀 Como Executar
-* 
+ 
 * 1. Compile o programa:
 * bash
 * javac -d bin dao/Collaborator.java profile/Atendente.java profile/Usuario.java profile/Gerente.java profile/Vendedor.java profile/ProfileCollaborator.java Main.java
 * Execute o programa:
-* 
+ 
 * bash
 * java -cp bin Main
 * Siga o fluxo interativo:
-* 
-* 
+ 
+ 
 * === COLLABORATOR PROFILE ===
 * 1. Login
 * 2. Sair do Sistema
 * Escolha uma opção:
-* 
+ 
 * 3. 🎯 Funcionalidades Implementadas
 * ✔️ Sistema hierárquico de tipos de usuários
 * ✔️ Controle de acesso diferenciado:
@@ -49,19 +49,19 @@
 * ✔️ Validação de dados de entrada (email, senha, nome)
 * ✔️ Operações específicas para cada perfil
 * ✔️ Gerenciamento de sessão (login/logoff)
-* 
+ 
 * 📝 Exemplo de Uso
-* 
+ 
 * === COLLABORATOR PROFILE ===
 * 1. Login
 * 2. Sair do Sistema
 * Escolha uma opção: 1
-* 
+ 
 * Email: admin@gmail.com
 * Senha: admin123
-* 
+ 
 * Gerente Jonson realizou login
-* 
+ 
 * === MENU DO USUÁRIO ===
 * 1. Alterar dados
 * 2. Alterar senha
@@ -70,7 +70,7 @@
 * 5. Voltar ao menu principal
 * Escolha uma opção: 3
 * Relatório financeiro gerado por Jonson
-* 
+ 
 * ⚠️ Importante
 * O sistema vem com usuários de exemplo pré-cadastrados:
 * Gerente: admin@gmail.com / admin123
