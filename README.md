@@ -39,7 +39,7 @@
 2. Sair do Sistema
 * Escolha uma opção:
  
-* 3. 🎯 Funcionalidades Implementadas
+3. 🎯 Funcionalidades Implementadas
 * ✔️ Sistema hierárquico de tipos de usuários
 * ✔️ Controle de acesso diferenciado:
 * ✔️ Gerentes: acesso completo (cadastro de usuários, relatórios)
