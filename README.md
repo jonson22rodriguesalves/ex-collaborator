@@ -88,32 +88,58 @@ classDiagram
         #email: String
         #senha: String
         #isAdmin: boolean
-        +realizarLogin()*
-        +realizarLogoff()*
-        +alterarDados(String, String)*
-        +alterarSenha(String)*
+        +realizarLogin()
+        +realizarLogoff()
+        +alterarDados(String, String)
+        +alterarSenha(String)
+        +getEmail() String
     }
     
     class Gerente {
+        +Gerente(String nome, String email, String senha)
         +gerarRelatorioFinanceiro()
         +consultarVendas()
     }
     
     class Vendedor {
         -quantidadeVendas: int
+        +Vendedor(String nome, String email, String senha)
         +realizarVenda()
         +consultarVendas()
     }
     
     class Atendente {
         -valorEmCaixa: double
+        +Atendente(String nome, String email, String senha)
         +receberPagamento(double)
         +fecharCaixa()
+    }
+    
+    class Collaborator {
+        -usuarios: List~Usuario~
+        -usuarioLogado: Usuario
+        -scanner: Scanner
+        +Collaborator()
+        +realizarLogin()
+        +cadastrarUsuario()
+        +alterarDadosUsuario()
+        +alterarSenhaUsuario()
+        +realizarLogoff()
+        +getUsuarioLogado() Usuario
+        +getUsuarios() List~Usuario~
+    }
+    
+    class ProfileCollaborator {
+        -usuariosExemplo: List~Usuario~
+        +getUsuariosExemplo() List~Usuario~
     }
     
     Usuario <|-- Gerente
     Usuario <|-- Vendedor
     Usuario <|-- Atendente
+    Collaborator --> Usuario
+    Collaborator --> ProfileCollaborator
+    ProfileCollaborator --> Usuario
 
  ````
 
